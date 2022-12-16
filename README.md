@@ -14,11 +14,13 @@ subsequent numeral, 3 through 9, will be the leading digit with decreasing frequ
 ```
 ./gradlew fatBinary
 ```
+Binary will be generated at `build/libs/`
 
 ##### Cli Help
 ```
 ./benford --help
 ```
+
 
 ##### Example
 Generate report and image from a dataSet:

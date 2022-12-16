@@ -21,6 +21,7 @@ class ConsoleOutput(val benfordSeries: BenfordSeries, val experimentName: String
         }
         val corr: Double =
             PearsonsCorrelation().correlation(benfordSeries.digitPercentages, benfordSeries.BENFORD_PERCENTAGES)
-        println("\n--- Correlation = $corr")
+        println("\n--- Correlation = $corr\n")
+
     }
 }
