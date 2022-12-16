@@ -23,9 +23,9 @@ Binary will be generated at `build/libs/`
 
 
 ##### Example
-Generate report and image from a dataSet:
+Generate report and image from a dataset:
 ```
-./benford --data=mean_durations.txt --experiment-name=mean_duratio
+./benford --file=mean_durations.txt --experiment-name=mean_duration
 ```
 ##### Outputs
 Output Console:
