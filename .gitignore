@@ -1,0 +1,30 @@
+# Gradle
+# ------
+.gradle/
+build/
+
+# IDEA
+# ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+# -------
+*.classpath
+*.project
+*.settings
+bin/
+
+# macOS
+# ----
+.DS_Store
+
+# Logs
+# ----
+*.log
+
+# Android Studio
+local.properties
